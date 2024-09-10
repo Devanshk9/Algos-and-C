@@ -47,7 +47,8 @@ int main() {
 
 
     //none_of(no-one should follow condition)
-    cout<< none_of(v.begin(),v.end(),[](int x){return x>0;})<<endl;;
+    cout<< none_of(v.begin(),v.end(),[](int x){return x>0;})<<endl;
+    //output=0(false) as all are positive
     return 0;
 }
 
